@@ -3,6 +3,7 @@ const path = require('path')
 const moment = require('moment')
 const { HOST } = require('./src/constants')
 const db = require('./src/database')
+const cors = require('cors')
 
 const PORT = process.env.PORT || 5000
 
@@ -13,6 +14,8 @@ const app = express()
 
 // Static public files
 app.use(express.static(path.join(__dirname, 'public')))
+
+app.use(cors())
 
 app.get('/', function(req, res) {
   res.send('Get ready for OpenSea!');
