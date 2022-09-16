@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "node test.js"
   },
-  "author": "Alex Atallah <alex.atallah@opensea.io>",
+  "author": "4ch5",
   "license": "MIT",
   "dependencies": {
     "ejs": "^2.6.1",
