@@ -138,5 +138,12 @@ module.exports = {
     'speed': Math.floor(Math.random() * 20) + 2,
     "health": Math.floor(Math.random() * 20) + 4,
     'strength': Math.floor(Math.random() * 50) + 1
-  }
+  },
+  "20": {
+    "name": "EverBort(UR)",
+    'level': 99,
+    'speed': 900,
+    "health": 900,
+    'strength': 900
+  },
 }
